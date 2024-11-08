@@ -29,9 +29,22 @@
 		B7EA71402CDD861700443FBA /* ProfileControlledFeatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileControlledFeatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B7A406062CDDD66300F22D36 /* Exceptions for "ProfileControlledFeature" folder in "ProfileControlledFeature" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/Test Signing CA.cer",
+			);
+			target = B7EA71252CDD861600443FBA /* ProfileControlledFeature */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B7EA71282CDD861600443FBA /* ProfileControlledFeature */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B7A406062CDDD66300F22D36 /* Exceptions for "ProfileControlledFeature" folder in "ProfileControlledFeature" target */,
+			);
 			path = ProfileControlledFeature;
 			sourceTree = "<group>";
 		};
